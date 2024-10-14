@@ -22,6 +22,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/mydb',
         grnd_level:String
     });
 
+    // end-point to check localhost:3000/save-wheather?city=hyderabad
     //Create a Mongoose model
     const Wheather=mongoose.model('Wheather',whetherSchema);
 
